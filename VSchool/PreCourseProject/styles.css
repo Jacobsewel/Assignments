@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+}
+img {
+    display:block;
+    height: 200px;
+    width: 200px;
+
+
+}
+p {
+    display: inline-block
+}
+
+.Koffee {
+    background-color: brown;
+}
+h1, h2{
+    font-size: 60px;
+    background-color: aqua;
+}
