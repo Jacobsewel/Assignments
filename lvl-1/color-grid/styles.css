@@ -1,0 +1,77 @@
+.rectangle {
+    position: relative;
+    left: 400px;
+    display: inline-block;
+    height:  100px;
+    width:  670px;
+    border-bottom: 5px solid white;
+    background-color:#F5C6D6
+     
+}
+.square1 {
+    position: relative;
+    left: 400px;
+    height: 100px;
+    width: 150px;
+    background-color: #EE2E84;
+}
+.square2 {
+    position: relative;
+    left: 575px;
+    bottom: 100px;
+    display: grid;
+    height: 100px;
+    width: 150px;
+    background-color: #EE2E84;
+}
+.square3 {
+    position: relative;
+    left: 750px;
+    bottom: 200px;
+    display: grid;
+    height: 100px;
+    width: 150px;
+    background-color: #EE2E84;
+}
+.square4 {
+    position: relative;
+    left: 920px;
+    bottom: 300px;
+    display: grid;
+    height: 100px;
+    width: 150px;
+    background-color: #EE2E84;
+}
+.rectangle1 {
+position: relative;
+left: 400px;
+height: 100px;
+bottom: 290px;
+width: 325px;
+background-color: #85CFD8;
+}
+.rectangle2 {
+    position: relative;
+    left: 750px;
+    height: 100px;
+    bottom: 390px;
+    width: 325px;
+    background-color: #85CFD8;
+    }
+.rectanglelong {
+    position: relative;
+    left: 400px;
+    height: 100px;
+    width: 500px;
+    background-color: #8DC63F;
+    bottom: 375px;
+}
+.rectangle3 {
+    position: relative;
+    left: 925px;
+    height: 100px;
+    width: 150px;
+    bottom: 475px;
+    background-color: #E76E34;
+
+}

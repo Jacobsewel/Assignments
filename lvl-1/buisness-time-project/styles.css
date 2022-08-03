@@ -1,0 +1,73 @@
+.earheader {
+    position: relative;
+    left: 520px;
+    top: 50px;
+}
+body {
+    background-color: gray;
+    border: 20px;
+      
+    
+}
+.webpage-title{
+    position: relative; left: 570px;
+    font-display: beige;
+    
+}
+#flex-container {
+    border: 5px solid green;
+    height: 20px;
+    width: 100%;
+    display: flex; 
+    background-color: beige;
+    padding: 10px;
+    justify-content:space-around;
+}
+.home {
+     color: whitesmoke;
+}
+.work {
+    background-color: orange;
+}
+.about {
+    background-color: orange;
+}
+.contact {
+    background-color: whitesmoke;
+
+}
+p {
+    position: relative;
+    font-size: 25px;
+    
+    top: 100px;
+    color: aquamarine;
+}
+.woofer {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 650px;
+    display: center
+}
+.terminal {
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    position: relative;
+    
+}
+.wires {
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    position: relative;
+    
+}
+.amp {
+    height: 200px;
+    width: 200px;
+    display: grid;
+}
+
