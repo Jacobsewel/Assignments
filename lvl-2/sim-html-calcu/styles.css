@@ -1,0 +1,55 @@
+.theChosenOne {
+    background-color: aquamarine;
+    border: 10px; 
+    border-radius: 4px;
+    color: red;
+    padding: 5px;
+    font-size: x-large; 
+    width: 80px;
+    
+}
+.firstHeader {
+    background-color: blanchedalmond; border-radius: 10px;
+    position: relative; left: 55px;
+    width: 155px;
+    margin: 20px;
+}
+
+.firstSubtraction {
+    background-color: aquamarine;
+    border: 20px; 
+    border-radius: 4px;
+    color: red;
+    padding: 5px;
+    font-size: x-large; 
+    width: 105px;
+}
+.firstProduct {
+    background-color: aquamarine;
+    border: 10px; 
+    border-radius: 4px;
+    color: red;
+    padding: 5px;
+    font-size: x-large; 
+    width: 80px;
+}
+
+input {
+
+    border-color: blueviolet;
+}
+.firstButton {
+    background-color:salmon
+}
+.secondButton {
+    background-color: salmon;
+}
+.thirdButton {
+    background-color: salmon;
+}
+.body {
+    background-color: lavender;
+}
+
+
+
