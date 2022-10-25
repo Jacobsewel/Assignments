@@ -1,0 +1,58 @@
+.goombas {
+    height: 70px;
+    width: 70px;
+
+}
+
+.bob-ombs {
+    height: 70px;
+    width: 70px
+}
+.cheep-cheeps {
+    height: 70px;
+    width: 70px
+}
+.feet {
+        display: grid;
+    text-align: center;
+        padding: 3px;
+        background-color: DarkSalmon;
+        color: white;
+        margin: 60px;
+}
+body {
+    background-color: skyblue;
+    
+    
+    
+    
+}
+.top {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.mid {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.bot {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.titleTwo {
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    left: 115px;
+}
+.button {
+    background-color: salmon;
+}
