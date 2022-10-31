@@ -11,14 +11,13 @@ console.log(result)*/
 
 //2-Turn an array of numbers into a long string of all those numbers.
 
-/*stringConcat = [1, 2, 3]
+stringConcat = [1, 2, 3]
 
-const result = stringConcat.reduce(function (final, string){
-    string.concat.s
-    return final
+const result = stringConcat.reduce(function (final, num){
+    return final + num
     
-})
-console.log(result)*/
+}, "")
+console.log(result)// "123"
 
 /*const totalVotes = [
     {name:'Bob' , age: 30, voted: true},
@@ -37,15 +36,15 @@ console.log(result)*/
 
 const result = totalVotes.reduce(function (final, voted){
     if(voted.voted){
-    final ++
-}
+        final++
+    }
     return final
 }, 0 )
 console.log(result)*/
 
-//Given an array of all your wishlist items, figure out how much it would cost to just buy everything at once
+// 4. Given an array of all your wishlist items, figure out how much it would cost to just buy everything at once
 
-shoppingSpree = [
+ /* 5. const shoppingSpree = [
     { title: "Tesla Model S", price: 90000 },
     { title: "4 carat diamond ring", price: 45000 },
     { title: "Fancy hacky Sack", price: 5 },
@@ -53,10 +52,23 @@ shoppingSpree = [
     { title: "A second Tesla Model S", price: 90000 }
 ]
 const result = shoppingSpree.reduce(function (final, sum){
-    final += sum
+    final += sum.price
     
     return final
     
-})
+}, 0)
 
-console.log(result)
+console.log(result)*/
+
+const flatten = [
+    ["1", "2", "3"],
+    [true],
+    [4, 5, 6]
+]
+const result2 = flatten.reduce(function (final, mix){
+    // final.mix
+    return final.concat(mix)
+}, [])
+console.log(result2)
+//[["1", "2", "3"]]
+

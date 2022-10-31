@@ -17,15 +17,15 @@ const result = evensOnly.filter(function (num){
 })
 console.log(result)*/
 
-/*const fiveCharactersOrFewerOnly = ["dog", "wolf", "by", "family", "eaten", "camping"]
+const fiveCharactersOrFewerOnly = ["dog", "wolf", "by", "family", "eaten", "camping"]
 
 const result = fiveCharactersOrFewerOnly.filter(function (word){
-    if(word % 2 === 0){
-    return true
+    if(word.length <= 5){
+        return true
     }
 })
 
-console.log(result)*/
+console.log(result)
 
 /*const peopleWhoBelongToTheIlluminati = [
     { name: "Angelina Jolie", member: true },
@@ -35,8 +35,8 @@ console.log(result)*/
     { name: "Bob Ziroll", member: true }
 
 ]
-const result = peopleWhoBelongToTheIlluminati.filter(function (people){
-    if(people.member === true){
+const result = peopleWhoBelongToTheIlluminati.filter(function (person){
+    if(person.member === true){
         return true
     }
 })
@@ -51,9 +51,9 @@ const ofAge = [
         { name: "Bob Ziroll", age: 100 }
 ]
 
-const result = ofAge.filter(function (person){
-    if(person.age > 18){
+const result2 = ofAge.filter(function (person){
+    if(person.age >= 18){
         return true
     }
 })
-console.log(result)
+console.log(result2)
