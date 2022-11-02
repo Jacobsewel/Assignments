@@ -1,0 +1,143 @@
+/*Also, instead of one main box, you'll make 6 smaller boxes. Each one, when hovered, 
+should change 2 or 3 different properties of the box that was hovered.
+
+You get to choose which properties change, but try to vary it between each box. Here's a non-exhaustive list of something you could change about each box:
+
+- Background color
+- Border (width, color, style)
+- Border radius (can target each corner individually if you want)
+- Box shadow
+- Height/width
+- Margin/padding (put some text inside to better see what's happening)
+- Position
+- Opacity
+
+**ALSO**, you must make each box smoothly transition from one style to another. (This is a CSS transitions practice, after all).*/
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center; 
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    opacity: 1;
+    border-style:double;
+    color: whitesmoke;
+    vertical-align: middle;
+    background-color: rgb(102, 3, 102);
+    border:solid  red 5px
+
+
+
+
+}
+.box1:hover {
+    background-color: blueviolet;
+    width: 150px;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center; 
+    transition-timing-function: ease-out;
+    transition-duration: 1.5s;
+    opacity: .8;
+    border-radius: 10%;
+    color: chocolate;
+    vertical-align: middle;
+    background-color: rgba(238, 255, 0, 0.99);
+    border: solid rgb(17, 140, 247) 10px
+}
+.box2:hover {
+    background-color: goldenrod;
+    width: 200px;
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center; 
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    opacity: 1;
+    color: whitesmoke;
+    vertical-align: middle;
+    background-color: green;
+    border: solid darkgreen
+}
+.box3:hover {
+    background-color: olive;
+    width: 300px; 
+}
+.box4 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center; 
+    transition-timing-function: ease-out;
+    transition-duration: 3s;
+    opacity: 1;
+    border-radius: 50px 20px;
+    margin: auto;
+    box-shadow: 10px 10px orangered; 
+    color: whitesmoke;
+    vertical-align: middle;
+    background-color: orange;
+    border: solid maroon
+}
+.box4:hover {
+    height: 300px;
+    width: 50px;
+}
+.box5 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center; 
+    transition-timing-function: ease-out;
+    transition-duration: .2s;
+    border-radius: 20px 50px;
+    margin: auto;
+    box-shadow: 20px 20px darkblue; 
+    color: whitesmoke;
+    vertical-align: middle;
+    background-color: lightskyblue;
+    border: solid wheat
+}
+.box5:hover {
+    height: .5px;
+    width: 500px;
+}
+.box6 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center; 
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    opacity: 1;
+    border-style:dotted;
+    border-radius: 5%;
+    box-shadow: 5px 10px 10px dimgray;
+    color: whitesmoke;
+    vertical-align: middle;
+    background-color: black;
+    border:thin 2px
+}
+.box6:hover {
+    background-color: dimgray;
+}
+.pokemon {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    display: table-cell;
+    margin: auto;
+}
+.DJ {
+    text-align: center;
+    
+}
+
