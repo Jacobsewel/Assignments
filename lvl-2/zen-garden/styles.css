@@ -1,0 +1,51 @@
+.road {
+    display:  block;
+}
+.csszengarden {
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.1UDklzFgS2Pra7IUmnF_8wHaHa&pid=Api&P=0); 
+    padding: 10px;
+    margin: 150px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.para1 {
+    display: block;
+    line-height: 40px;
+    
+}
+.flex-container {
+    background-color: whitesmoke;
+    display: block;
+    padding: 4%;
+    
+
+}
+.top-flex {
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.W3Zq6o2VCscjdiyaXxFETQHaE7&pid=Api&P=0);
+    text-align:left;
+    line-height: 40px;
+    color: black;
+    
+    
+    
+}
+.mid-section {
+    background-color: rgb(2, 115, 78);
+    padding: 2%;
+    line-height: 40px;
+}
+.bot-sec {
+    background-color: lightgray;
+    padding: 1.5%;
+    line-height: 40px;
+}
+.para2 {
+    line-height: 40px;
+}
+.footer {
+    background-color: beige;
+    padding: 1%;
+}
+
+
