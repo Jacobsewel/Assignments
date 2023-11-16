@@ -1,0 +1,63 @@
+
+
+
+{
+    "name": "appetizers",
+    "cost":2,
+    "menu":[ "seared ahi tuna", "calamari", "bbq shrimp", "crab cakes", "shark fin"],
+    "isVegan":"false",
+    "ingredients": ["meat", "butter", "bread", "lemonJuice", "bbqSauce"],
+    "desciption": ["mouth-watering food for the quickie"],
+
+
+
+    "cold sandwhich":{
+        "long":{
+            "mild": "turkey breast and american cheese",
+            "spicy": "roast beef and swiss cheese",
+            "honey": "ham and pepperjack cheese",
+            "isHot": false,
+            "price": 4,
+            "ingredientss":["milk", "soy", "meat","wheat"],
+            "descriptionn": ["best cold sandwhiches in towm made fresh in our kitchen"]
+
+        }
+    },
+
+    "hot sandwhich": {
+        "long":{
+            "mild": "meatball marinara",
+            "spicy": "chicken and provolone cheese",
+            "sweetSour": "goat and bluecheese",
+            "isHot": true,
+            "price": 4,
+            "ingredientsss":["beef", "chicken", "goat", "wheatBread","whitebread","cheese", "milk", "soy" ]
+
+        }
+    },
+    "desserts":{
+        "cone":{
+            "plain": "rassleberry", 
+            "waffle": "neapolitan",
+            "veggie": "coconut with sprinkles",
+            "isCold": true, 
+            "price": 3,
+            "ingredientsssss":["vanilla", "chocolate", "coconut", "sprinkles", "milk", "soy", "vegetables"]
+
+        }
+},
+    "drinks":{
+        "largeOnly":{
+            "soda":["coke", "sprite", "drPepper", "rootBeer", "fanta"],
+            "water":["spring", "wellWater", "mountain", "tap"],
+            "price":3,
+            "ingredientssssss":["sugarCane", "coloring", "highFructoseCornSyrup", "water"]
+            
+        }
+    }
+
+
+}
+
+
+
