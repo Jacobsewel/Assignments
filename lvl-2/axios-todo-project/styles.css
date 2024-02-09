@@ -1,0 +1,10 @@
+#flexbox {
+    display: flex; 
+    flex-direction: column;
+}
+/* flex wrap 
+use border radius to make a rounded corner
+use border to outline and make it nice
+use a background color */
+
+/* display: flex direction - horizonatl or vertical colounm becomes vertical */
